@@ -12,3 +12,5 @@ yum install python-virtualenv
 virtualenv venv
 
 pip freeze on venv has no items
+
+ansible-runner container has no items
