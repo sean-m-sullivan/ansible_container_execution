@@ -10,3 +10,5 @@ python get-pip.py
 yum install python-virtualenv
 
 virtualenv venv
+
+pip freeze on venv has no items
