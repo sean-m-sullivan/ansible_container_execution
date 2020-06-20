@@ -1,0 +1,10 @@
+---
+- name: pip
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  tasks:
+
+    - name: Pip Freeze
+      shell: pip freeze
